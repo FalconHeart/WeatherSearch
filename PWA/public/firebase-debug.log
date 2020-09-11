@@ -1,0 +1,49 @@
+[debug] [2020-09-11T21:11:37.021Z] ----------------------------------------------------------------------
+[debug] [2020-09-11T21:11:37.030Z] Command:       C:\Users\ALNURU~1\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\Al Nurul Muajiruun\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init
+[debug] [2020-09-11T21:11:37.032Z] CLI Version:   8.10.0
+[debug] [2020-09-11T21:11:37.032Z] Platform:      win32
+[debug] [2020-09-11T21:11:37.033Z] Node Version:  v12.18.1
+[debug] [2020-09-11T21:11:37.041Z] Time:          Fri Sep 11 2020 23:11:37 GMT+0200 (South Africa Standard Time)
+[debug] [2020-09-11T21:11:37.042Z] ----------------------------------------------------------------------
+[debug] [2020-09-11T21:11:37.042Z] 
+[debug] [2020-09-11T21:11:37.058Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-11T21:11:37.059Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Al Nurul Muajiruun\Downloads\PWA
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-09-11T21:11:48.013Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-09-11T21:11:48.587Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 11 Sep 2020 21:11:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project weathersearch-f7350 (WeatherSearch) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-09-11T21:12:59.494Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-09-11T21:12:59.731Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Fri, 11 Sep 2020 20:27:58 GMT","expires":"Fri, 11 Sep 2020 21:17:58 GMT","last-modified":"Thu, 10 Sep 2020 19:51:39 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"2702","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] i  Writing gitignore file to .gitignore... 
+[info] 
+[info] +  Firebase initialization complete! 
